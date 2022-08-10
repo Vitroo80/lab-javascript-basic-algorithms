@@ -3,7 +3,7 @@
 let driver
 driver = "hacker1"
 let navigator 
-navigator = "ahacker2"
+navigator = "hacker2"
 console.log (`The driver's name is ${driver}`)
 
 // Iteration 2: Conditionals
@@ -24,7 +24,15 @@ let inverso = driver.split("").reverse().join("")
 console.log(inverso)
  
 let names = [driver, navigator]
-
 names.sort()
-console.log(names)
+if (driver < navigator){
+    console.log("The driver's name goes first.")}
+    else if(navigator < driver){
+        console.log("Yo, the navigator goes first definitely.")
+    } else { 
+        console.log("What?! You both have the same name?")
+    }
 
+
+
+// Bonus GigaChad
