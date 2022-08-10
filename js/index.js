@@ -3,7 +3,7 @@
 let driver
 driver = "hacker1"
 let navigator 
-navigator = "aacker2"
+navigator = "ahacker2"
 console.log (`The driver's name is ${driver}`)
 
 // Iteration 2: Conditionals
@@ -24,7 +24,7 @@ let inverso = driver.split("").reverse().join("")
 console.log(inverso)
  
 let names = [driver, navigator]
-for (let i=0; i<names; i++)
 
 names.sort()
 console.log(names)
+
